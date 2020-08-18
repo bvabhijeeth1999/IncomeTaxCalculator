@@ -1,0 +1,33 @@
+<!doctype HTML>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Income Tax Calculator</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="icon" href="/favicons/money_bag.png" type="image/x-icon"/>
+
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/42b63e661f.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <div class="container1">
+    <!-- Now here we need to display the items from the itemArray -->
+    <form class="form-group" action="/" method="post">
+      <img src="favicons/cash-money.webp" alt="Cash image" height="200" width="200">
+      <h1 class="headi h3 mb-3 font-weight-bold brand">INCOME TAX CALCULATOR</h1>
+      <label for="inputName" class="sr-only">CTC</label>
+      <input type="number" name="ctc" id="inputName" class="form-control form-control-lg adjust" placeholder="Enter CTC" required autofocus>
+      <label for="deduction" class="sr-only">Deductions</label>
+      <input type="number" id="deduction" name="deduction" class="form-control form-control-lg adjust" placeholder="Enter Non Taxable amount." required>
+      <button class="btn btn-lg btn-danger btn-modi" type="submit">CALCULATE</button>
+      <p class="mt-5 mb-3 text-muted">&copy; 2020-2021</p>
+    </form>
+  </div>
+</body>
+
+</html>
